@@ -51,7 +51,7 @@ void del(int count,Vips user[])
     }
 }
 
-void modify(int count,Vips user[])
+void change(int count,Vips user[])
 {
     int j;
     printf("请您输入需要修改的ID: ");
@@ -70,7 +70,7 @@ void modify(int count,Vips user[])
     }
 }
 
-void sel(int count,Vips user[])
+void check(int count,Vips user[])
 {
     for(int a=0;a<count;a++){
         if(user[a].id!=0){
@@ -102,10 +102,10 @@ void sel(int count,Vips user[])
                 del(count,user);
                 break;
             case 2:
-                modify(count,user);
+                change(count,user);
                 break;
              case 3:
-                sel(count,user);
+                chack(count,user);
                 break;
             case 4:
                 exit(0);
