@@ -20,7 +20,7 @@ Vips add()
     printf("请输出您的性别:");
     scanf("%s",&u.sex);
     // printf("id:%d 姓名:%s 年龄:%d 性别%d \n",count+1,u.name,u.age,u.sex);
-    printf("恭喜新增成功\n");
+    printf("新增成功\n");
     return u;
 }
 
@@ -41,7 +41,7 @@ int menu()
 void del(int count,Vips user[])
 {
      int x,i;
-    printf("请您输入需要删除的id：");
+    printf("请您输入需要删除的用户编号：");
     scanf("%d",&x);
     for( i = 0; i < count;i++){
         if(user[i].id == x){
@@ -64,7 +64,7 @@ void modify(int count,Vips user[])
             scanf("%d",&user[i].age);
             printf("请输入您的性别：");
             scanf("%s",&user[i].sex);
-            printf("恭喜修改成功\n");
+            printf("修改成功\n");
         }
 
     }
