@@ -19,7 +19,6 @@ Vips add()
     scanf("%d",&u.age);
     printf("请输出您的性别:");
     scanf("%s",&u.sex);
-    // printf("id:%d 姓名:%s 年龄:%d 性别%d \n",count+1,u.name,u.age,u.sex);
     printf("新增成功\n");
     return u;
 }
