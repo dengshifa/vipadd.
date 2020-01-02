@@ -27,13 +27,13 @@ Vips add()
 int menu()
 {
   printf("-----------[欢迎来到修仙会员管理系统]-------------\n");
-  printf("\t\t0:新增会员\n");
-  printf("\t\t1:删除会员\n");
-  printf("\t\t2:修改会员\n");
-  printf("\t\t3:查询会员\n");
-  printf("\t\t4:退出系统\n");
+  printf("\t\t1:新增会员\n");
+  printf("\t\t2:删除会员\n");
+  printf("\t\t3:修改会员\n");
+  printf("\t\t4:查询会员\n");
+  printf("\t\t5:退出系统\n");
   printf("--------------------------------------------------\n");
-  printf("请输入0~4来进行下一步:\n");
+  printf("请输入1~5来进行下一步:\n");
 
 }
 
@@ -89,7 +89,7 @@ void check(int count,Vips user[])
         menu();
         scanf("%d",&i);
         switch(i){
-            case 0:
+            case 1:
                a = add();
                 user[count].id = count+1;
                 user[count].name = a.name;
@@ -97,16 +97,16 @@ void check(int count,Vips user[])
                 user[count].sex = a.sex;
                 count++;
                 break;
-            case 1:
+            case 2:
                 del(count,user);
                 break;
-            case 2:
+            case 3:
                 change(count,user);
                 break;
-             case 3:
+             case 4:
                 chack(count,user);
                 break;
-            case 4:
+             case 5:
                 exit(0);
             default:
                 break;
