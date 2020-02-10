@@ -1,0 +1,16 @@
+#Nav{ 
+    height: 40px;
+    width: 100%;
+    background-color: #ffff;
+    margin-left: 10%;
+}
+
+
+#Nav ul li{
+    float: left;
+    margin-right: 35px;
+    font-size:18px;
+    line-height: 40px;
+    /* border-bottom: 1px solid #FFC1C1; */
+    list-style: none
+}
