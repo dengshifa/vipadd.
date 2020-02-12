@@ -1,14 +1,16 @@
 import React from 'react'
 import './banner.css'
 
+import Banner1 from "../img/1.jpg"
+
 function Banner() {
     return (
-      <div id='banner'>
-        <div className="ban">
-        <img src={require("./img/1.jpg")} alt="图片加载失败"/>
+     
+        <div className="Banner">
+        	<img src={Banner1} alt="图片加载失败"/>
         </div>
           
-      </div>
+    
     )
 }
 

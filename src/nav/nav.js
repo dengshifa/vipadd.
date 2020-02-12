@@ -3,9 +3,9 @@ import "./nav.css"
 
 function Nav(){
     return (
-        <div id='Nav'>
+        <div className={"Nav"}>
             <ul>
-                <li>首页</li>
+                <li className={"active"}>首页</li>
                 <li>推荐</li>
                 <li>限免</li>
                 <li>金融</li>

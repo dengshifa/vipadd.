@@ -1,0 +1,13 @@
+
+.Article{
+    display:flex;
+    border-bottom: 1px solid #eee;
+    padding:15px 10px;
+}
+.Article .title{
+    flex:1;
+}
+.Article .cover{
+    width:90px;
+    height:50px;
+}

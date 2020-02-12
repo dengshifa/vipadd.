@@ -1,0 +1,19 @@
+.search{
+    display:flex;
+    padding:5px;
+}
+.search .keyword{
+    flex: 1;
+    outline: none;
+    padding:3px;
+    border:none;
+    background-color: #eee;
+}
+.search .icon{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    /*border: 1px solid red;*/
+    background-image:url("../icon/erji.png");
+    background-size:30px 30px;
+}

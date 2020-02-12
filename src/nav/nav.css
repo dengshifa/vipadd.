@@ -1,0 +1,24 @@
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.Nav{
+	display:inline-block;
+}
+.Nav ul{ 
+    list-style: none;
+}
+
+
+.Nav li{
+    float: left;
+    margin:5px;
+    font-size:12px;
+    
+    
+}
+
+.Nav .active{
+    border-bottom:3px solid #666;
+}
